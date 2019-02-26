@@ -1,0 +1,13 @@
+version: '2'
+services:
+  node_with_vue:
+    build:
+      context: .
+    volumes:
+      - $PROJECT_LOCAL_PATH:/workspace
+    restart: always
+    ports:
+      - "9090:8080"
+    container_name: node_with_vue
+    stdin_open: true
+    tty: true

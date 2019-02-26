@@ -26,6 +26,3 @@ cd vueproject
 npm install
 
 ```
-
-**注意**：
-vue20project是已经初始化了的项目，可以通过如上命令自己创建
